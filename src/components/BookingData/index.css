@@ -1,0 +1,78 @@
+.route-details-card {
+    background-color: #ffffff;
+    opacity: 78%;
+    border-radius: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 550px;
+  }
+  .route-details {
+    display: flex;
+    justify-content: center;
+  }
+  .details-head {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-weight: 800;
+  }
+  
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+  }
+  
+  .return-arrow {
+    margin-top: 10px;
+  }
+  .trip-details {
+    font-size: 17px;
+    display: flex;
+    font-family: 'Roboto';
+  }
+  
+  .from-details {
+    display: flex;
+  }
+  
+  .from {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+  }
+  
+  .location {
+    margin-top: 18px;
+  }
+  
+  .book {
+    padding: 15px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #eff1f2;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 768px) { 
+    .list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center; 
+      flex-wrap: wrap;
+    }
+    .route-details-card {
+      background-color: #ffffff;
+      opacity: 78%;
+      border-radius: 1px solid #000000;
+      border-radius: 10px;
+      padding: 10px;
+      width: 250px;
+      margin-top: 70px;
+    }
+  }

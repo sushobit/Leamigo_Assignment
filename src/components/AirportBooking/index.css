@@ -1,0 +1,123 @@
+.main-container {
+    height: 140vh;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://static01.nyt.com/images/2023/05/29/travel/24flight-attendant-etiquette-print/24flight-attendant-etiquette-videoSixteenByNineJumbo1600.jpg');
+    background-size: cover;
+    padding-top: 110px;
+    
+  }
+
+  .second_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    color: #f2f5f6;
+    font-style: italic;
+    font-weight: 1000;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .para {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 900;
+    color: #610a63;
+  }
+  
+  .details-card {
+    background-color: #bb9595;
+    height: 100px;
+    box-shadow: 4px 16px 16px 4px #bfbfbf;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .input {
+    padding: 14px;
+    border-radius: 10px;
+    width: 500px;
+    border-width: 0;
+    background-color: #ffffff;
+    outline: none;
+    font-size: 20px;
+    color: #000000;
+    margin: 5px;
+  }
+  
+  .button {
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: green;
+    border-width: 0;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .arrow {
+    margin-top: 15px;
+    padding: 5px;
+    width: 70px;
+  }
+  
+  .no-data {
+    color: red;
+    font-family: 'Roboto';
+    background-color: rgb(243, 251, 251);
+    border-radius: 10%;
+    padding: 20px;
+  }
+  
+  .button:hover {
+    transition: 0.2;
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 576px) { 
+    .main-container {
+        height: 200vh;
+        padding: 50px;
+        text-align: center;
+        background-image: url('https://www.savethestudent.org/uploads/flights.jpg');
+        background-size: cover;
+        padding-top: 210px;
+        display: flex;
+        
+        align-items: center;
+      }
+      .heading {
+        font-size: 20%;
+        font-family: 'Roboto';
+        color: #f2f5f6;
+        font-style: italic;
+        font-weight: 1000;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .details-card {
+        background-color: #bb9595;
+        height: 100px;
+        box-shadow: 4px 16px 16px 4px #bfbfbf;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        padding: 20px;
+      }
+  }

@@ -1,0 +1,40 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.savethestudent.org/uploads/flights.jpg');
+    background-size: cover;
+  }
+  
+  .login-container {
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    background-color: aliceblue;
+    opacity: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    border-radius: 10px;
+    
+  }
+  .buttonfolder {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  
+  
+  @media (max-width: 576px) {
+    .login-container {
+      padding: 1rem;
+    }
+  }
+  
